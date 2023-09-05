@@ -11,7 +11,7 @@ const AllTheBooks = () => (
             <Card.Img variant="top" src={book.img} alt={book.category} style={{ height: "300px" }} />
             <Card.Body>
               <Card.Title>{book.title}</Card.Title>
-              <Card.Text>{book.price}€</Card.Text>
+              <Card.Text className="mt-3">{book.price}€</Card.Text>
             </Card.Body>
           </Card>
         </Col>
